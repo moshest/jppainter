@@ -243,3 +243,30 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+	
+	
+
+ul.view {
+	list-style: none;
+	margin: 2em 0;
+	padding: 0;
+}
+
+ul.view > li {
+	list-style: none;
+	margin: 0;
+	padding: 5px;
+	text-align: center;
+	float: left;
+	width: 50%;
+}
+
+ul.view > li.big {
+	float: none;
+	width: 100%;
+}
+
+ul.view > li img {
+	width: 100%;
+	height: auto;
+}
